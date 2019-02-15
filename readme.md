@@ -57,3 +57,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # E-commerce-test
+Pour lancer l'application il faudrait se mettre à la racine du projet et exécuter ces trois commandes:
+php artisan migrate  (pour la migration de la base de données)
+php artisan db:seed  (pour enregistrer les 3 produits dans la base de données)
+php artisan serve    (pour lancer le serveur)
